@@ -8,11 +8,11 @@ Este repositorio contiene las actividades realizadas para la materia de DESARROL
 
 1. **Actividad 1**
 
-### RESULTADOS DE APRENDIZAJE
+**RESULTADOS DE APRENDIZAJE**
 
 T1-09-01-3-1-1-RA1: [Define] + [el diseño de un algoritmo] + [para modelar conceptualmente un programa] + [utilizando diagramas de flujo] / [utilizando seudocódigo] 
 
-### CRITERIO DE EVALUCIÓN
+**CRITERIO DE EVALUCIÓN**
 
 En este trabajo práctico se introducen las primeras etiquetas HTML para practicar la semantica y estructura de un archivo HTML
 
@@ -21,7 +21,7 @@ En este trabajo práctico se introducen las primeras etiquetas HTML para practic
 - Implementacion de etiquetas html.
 - Subir el archivo al repositorio creado previamente en GitHub.
 
-### ENUNCIADO
+**ENUNCIADO**
 
 La problemática de la segunda clase consiste en seleccionar una noticia actual de un diario online a elección y crear un documento HTML que posea el mismo contenido que la noticia (título, subtítulos, texto) respetando los elementos semánticos de HTML y guardando el progreso en un repositorio público de Github.
 
