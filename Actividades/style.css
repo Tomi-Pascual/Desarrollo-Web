@@ -19,16 +19,16 @@ body, html{
     font-size: 14px;
 }
 .MainHeader{
-    display: flex;
-    height: 122px;
-    text-align: center;
-    align-content: center;
-    justify-content: space-between;
+    position: relative;
+    vertical-align: middle;
     width: 100%;
+    height: 8rem;
+    box-sizing: border-box;
     border-bottom: 1px solid #818181;
 }
 .MenuSection{
-    display: flex;
+    position: absolute;
+    top: 30px;
     align-items: center;
     margin-left: 2rem;
 }
@@ -43,15 +43,42 @@ body, html{
     width: 2rem;
     height: 2rem;
 }
-.barra{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+.p1{
+    position: absolute;
+    top: 0px;
+    margin-left: 5rem;
+}
+.p2{
+    position: absolute;
+    top: 0px;
+    margin-left: 12rem;
+
+}
+.p3{
+    position: absolute;
+    top: 0px;
+    margin-left: 20rem;
+}
+.barra1{
+    position: absolute;
+    top: 0px;
+    margin-left: 11.1rem;
+}
+.barra2{
+    position: absolute;
+    top: 0px;
+    margin-left: 18.8rem;
 }
 .LogoLinkHeader{
-    margin-right: 8rem;
+    left: 32rem;
+    top: 2.3rem;
+    position: relative;
     align-content: center;
 }
 .LogIn{
+    bottom: 15px;
+    position: relative;
+    left: 82rem;
     align-content: center;
 }
 .LogInBtn{
@@ -67,28 +94,37 @@ body, html{
     justify-content: space-around;
 }
 .ContainerHeader{
+    margin-top: -15px;
     background-color: #DFDFDF;
     width: 100%;
 }
 .MainContainer{
-    display: flex;
+    position: relative;
     margin-left: 6rem;
     align-items: center;
 }
 .ContainerTitle{
+    position: absolute;
+    top: 1rem;
     color: #00558c;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
 }
 .SubContainer{
+    top: 1rem;
     position: relative; 
-    overflow: hidden; 
-    height: 40px; 
-    bottom: 5px; 
+    left: 4.5rem;
     margin-left: 1rem;
 }
-.Parrafo{
+.Parrafo1{
+    color: gray;
+    font-weight: 300;
+}
+.Parrafo2{
+    position: relative;
+    bottom: 35px;
+    left: 25rem;
     color: gray;
     font-weight: 300;
 }
@@ -97,23 +133,112 @@ body, html{
     font-weight: 600;
 }
 .SectionPrimary{
-    display: flex;
+    position: relative;
+    margin-top: -16px;
+    width: 100%;
     background: #f8f8f8;
-    padding: 3rem;
+    padding: 1rem 3rem 3rem 4rem;
 }
 .Article-Note{
+    position: absolute;
     display:inline;
-    width: 1500px;
+    width: 53rem;
 }
 .img-note{
     margin-top: 1rem;
 }
 .Article-SecondaryNote{
-    margin-left: 2rem;
-    margin-right: 15rem;
+    position: absolute;
+    left: 60rem;
+    top: 2.5rem;
+    width: 300px;
+}
+.Article-ThirdNote{
+    position: absolute;
+    left: 60rem;
+    top: 20.5rem;
     width: 300px;
 }
 .h3-SecondaryNote{
     margin-top: 5px;
     font-weight: 500;
+}
+.footer{
+    position: relative;
+    top: 45rem
+}
+.LogoFooter{
+    position: relative;
+    left: 38rem;
+}
+.Secciones{
+    position: relative;
+    left: 6rem;
+    border-bottom: 1px solid #818181;
+    height: 20rem;
+    width: 80%;
+}
+.SeccionesSpan{
+    position: relative;
+    left: 20rem;
+    top: 2rem;
+}
+.seccion1{
+    position: relative;
+    top: 2rem;
+    left: 17.5rem;
+}
+.seccion{
+    margin-bottom: 1rem;
+}
+.seccion1 .seccion a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.seccion1 .seccion {
+    list-style-type: none;
+}
+
+.seccion1 .seccion a:visited {
+    border-bottom: none;
+}
+.seccion2{
+    position: relative;
+    bottom: 13rem;
+    left: 35rem;
+}
+.seccion2 .seccion a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.seccion2 .seccion {
+    list-style-type: none;
+}
+
+.seccion2 .seccion a:visited {
+    border-bottom: none;
+}
+.seccion3{
+    position: relative;
+    bottom: 28rem;
+    left: 52.5rem;
+}
+.seccion3 .seccion a {
+    text-decoration: none; 
+    color: inherit;
+}
+
+.seccion3 .seccion {
+    list-style-type: none;
+}
+
+.seccion3 .seccion a:visited {
+    border-bottom: none;
+}
+.formulario{
+    position: relative;
+    top: 47rem;
+    left: 6rem;
 }
