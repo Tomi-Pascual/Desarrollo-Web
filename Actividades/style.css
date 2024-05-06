@@ -290,7 +290,7 @@ body, html{
         left: 14.6rem;
     }
     .SectionPrimary{
-        
+        height: 90rem;
     }
     .ArticlePrimaryNote{
         width: 600px;
@@ -313,5 +313,120 @@ body, html{
     .ImgNote2, .ImgNote3{
         width: 600px;
         height: 300px;
+    }
+    .ArticleThirdNote{
+        position: absolute;
+        left: 10rem;
+        top: 64.2rem;
+        width: 300px;    
+    }
+    .ImgNote3{
+        position: relative;
+        top: 3rem;
+    }
+    .LogoFooter{
+        position: relative;
+        left: 22rem;
+    }
+    .Section {
+        position: relative;
+        left: -6rem !important;
+        border-bottom: 1px solid #818181;
+        height: 20rem;
+        width: 110%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .LogInBtn, .P1, .P2, .P3, .Bar1, .Bar2, .Date, .SubContainer2, .SectionUl{
+        display: none;
+    }
+    .Header{
+        height: 4.5rem;
+    }
+    .MenuSection{
+        top: 0.8rem;
+    }
+    .LogoLinkHeader{
+        top: 1rem;
+        left: 6rem;
+    }
+    .LogIn{
+        bottom: 2rem;
+        left: 40rem;
+    }
+    .ImgLogIn{
+        display: block;
+        right: 10rem;
+    }
+    main{
+        width: 150%;
+    }
+    .ContainerHeader {
+        margin-top: -12px;
+        height: 4rem;
+        background-color: #DFDFDF;
+        width: 100%;
+    }
+    .MainHeader {
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+        height: 4.7rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid #818181;
+    }
+    .ContainerTitle{
+        left: 1rem;
+    }
+    .SubContainer1{
+        left: 6rem;
+    }
+    .SectionPrimary{
+        height: 90rem;
+    }
+    .ArticlePrimaryNote{
+        width: 600px;
+        left: 4rem;
+    }
+    .ImgNote{
+        width: 600px;
+        height: 300px;
+    }
+    .ArticleSecondaryNote{
+        width: 600px;
+        left: 4rem;
+        top: 40rem;
+    }
+    .SecondaryNoteH3{
+        font-weight: bold;
+        position: relative;
+        bottom: 23rem;
+    }
+    .ImgNote2, .ImgNote3{
+        width: 600px;
+        height: 300px;
+    }
+    .ArticleThirdNote{
+        position: absolute;
+        left: 4rem;
+        top: 64.2rem;
+        width: 300px;    
+    }
+    .ImgNote3{
+        position: relative;
+        top: 3rem;
+    }
+    .LogoFooter{
+        position: relative;
+        left: 15rem;
+    }
+    .Section {
+        position: relative;
+        left: -6rem !important;
+        border-bottom: 1px solid #818181;
+        height: 20rem;
+        width: 110%;
     }
 }
