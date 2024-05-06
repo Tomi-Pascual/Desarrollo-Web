@@ -6,7 +6,7 @@ body, html{
     margin: 0;
     padding: 0;
 }
-.fecha{
+.Date{
     background-color: #00558C;
     width: 100%;
     height: 2.5rem;
@@ -39,32 +39,32 @@ body, html{
     width: 3rem;
     margin-right: 2rem;
 }
-.img-btn{
+.ImgBtn{
     width: 2rem;
     height: 2rem;
 }
-.p1{
+.P1{
     position: absolute;
     top: 0px;
     margin-left: 5rem;
 }
-.p2{
+.P2{
     position: absolute;
     top: 0px;
     margin-left: 12rem;
 
 }
-.p3{
+.P3{
     position: absolute;
     top: 0px;
     margin-left: 20rem;
 }
-.barra1{
+.Bar1{
     position: absolute;
     top: 0px;
     margin-left: 11.1rem;
 }
-.barra2{
+.Bar2{
     position: absolute;
     top: 0px;
     margin-left: 18.8rem;
@@ -93,6 +93,9 @@ body, html{
     margin-right: 2rem;
     justify-content: space-around;
 }
+.ImgLogIn{
+    display: none;
+}
 .ContainerHeader{
     margin-top: -15px;
     background-color: #DFDFDF;
@@ -111,17 +114,17 @@ body, html{
     font-size: 14px;
     line-height: 19px;
 }
-.SubContainer{
+.SubContainer1, .SubContainer2{
     top: 1rem;
     position: relative; 
     left: 4.5rem;
     margin-left: 1rem;
 }
-.Parrafo1{
+.Paragraph1{
     color: gray;
     font-weight: 300;
 }
-.Parrafo2{
+.Paragraph2{
     position: relative;
     bottom: 35px;
     left: 25rem;
@@ -136,109 +139,294 @@ body, html{
     position: relative;
     margin-top: -16px;
     width: 100%;
+    height: 47rem;
     background: #f8f8f8;
     padding: 1rem 3rem 3rem 4rem;
 }
-.Article-Note{
+.ArticlePrimaryNote{
     position: absolute;
     display:inline;
     width: 53rem;
 }
-.img-note{
+.ImgNote{
     margin-top: 1rem;
 }
-.Article-SecondaryNote{
+.ArticleSecondaryNote{
     position: absolute;
     left: 60rem;
     top: 2.5rem;
     width: 300px;
 }
-.Article-ThirdNote{
+.ArticleThirdNote{
     position: absolute;
     left: 60rem;
     top: 20.5rem;
     width: 300px;
 }
-.h3-SecondaryNote{
+.SecondaryNoteH3{
     margin-top: 5px;
     font-weight: 500;
 }
-.footer{
+.Footer{
     position: relative;
-    top: 45rem
+    top: 2rem
 }
 .LogoFooter{
     position: relative;
     left: 38rem;
 }
-.Secciones{
+.Section{
     position: relative;
     left: 6rem;
     border-bottom: 1px solid #818181;
     height: 20rem;
     width: 80%;
 }
-.SeccionesSpan{
+.SectionSpan{
     position: relative;
     left: 20rem;
     top: 2rem;
 }
-.seccion1{
+.Section1{
     position: relative;
     top: 2rem;
     left: 17.5rem;
 }
-.seccion{
+.SectionLi{
     margin-bottom: 1rem;
 }
-.seccion1 .seccion a {
+.Section1 .Section a {
     text-decoration: none; 
     color: inherit;
 }
 
-.seccion1 .seccion {
+.Section1 .Section {
     list-style-type: none;
 }
 
-.seccion1 .seccion a:visited {
+.Section1 .Section a:visited {
     border-bottom: none;
 }
-.seccion2{
+.Section2{
     position: relative;
     bottom: 13rem;
     left: 35rem;
 }
-.seccion2 .seccion a {
+.Section2 .Section a {
     text-decoration: none; 
     color: inherit;
 }
 
-.seccion2 .seccion {
+.Section2 .Section {
     list-style-type: none;
 }
 
-.seccion2 .seccion a:visited {
+.Section2 .Section a:visited {
     border-bottom: none;
 }
-.seccion3{
+.Section3{
     position: relative;
     bottom: 28rem;
     left: 52.5rem;
 }
-.seccion3 .seccion a {
+.Section3 .Section a {
     text-decoration: none; 
     color: inherit;
 }
 
-.seccion3 .seccion {
+.Section3 .Section {
     list-style-type: none;
 }
 
-.seccion3 .seccion a:visited {
+.Section3 .Section a:visited {
     border-bottom: none;
 }
-.formulario{
+.Form{
     position: relative;
-    top: 47rem;
+    top: 3rem;
     left: 6rem;
+}
+
+@media screen and (max-width: 991px) {
+    .LogInBtn, .P1, .P2, .P3, .Bar1, .Bar2, .Date, .SubContainer2{
+        display: none;
+    }
+    .Header{
+        height: 4.5rem;
+    }
+    .MenuSection{
+        top: 0.8rem;
+    }
+    .LogoLinkHeader{
+        top: 1rem;
+        left: 15rem;
+    }
+    .LogIn{
+        bottom: 2rem;
+        left: 55rem;
+    }
+    .ImgLogIn{
+        display: block;
+        right: 10rem;
+    }
+    .ContainerHeader {
+        margin-top: -12px;
+        height: 4rem;
+        background-color: #DFDFDF;
+        width: 100%;
+    }
+    .MainHeader {
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+        height: 4.7rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid #818181;
+    }
+    .ContainerTitle{
+        left: 10rem;
+    }
+    .SubContainer1{
+        left: 14.6rem;
+    }
+    .SectionPrimary{
+        height: 90rem;
+    }
+    .ArticlePrimaryNote{
+        width: 600px;
+        left: 10rem;
+    }
+    .ImgNote{
+        width: 600px;
+        height: 300px;
+    }
+    .ArticleSecondaryNote{
+        width: 600px;
+        left: 10rem;
+        top: 40rem;
+    }
+    .SecondaryNoteH3{
+        font-weight: bold;
+        position: relative;
+        bottom: 23rem;
+    }
+    .ImgNote2, .ImgNote3{
+        width: 600px;
+        height: 300px;
+    }
+    .ArticleThirdNote{
+        position: absolute;
+        left: 10rem;
+        top: 64.2rem;
+        width: 300px;    
+    }
+    .ImgNote3{
+        position: relative;
+        top: 3rem;
+    }
+    .LogoFooter{
+        position: relative;
+        left: 22rem;
+    }
+    .Section {
+        position: relative;
+        left: -6rem !important;
+        border-bottom: 1px solid #818181;
+        height: 20rem;
+        width: 110%;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .LogInBtn, .P1, .P2, .P3, .Bar1, .Bar2, .Date, .SubContainer2, .SectionUl{
+        display: none;
+    }
+    .Header{
+        height: 4.5rem;
+    }
+    .MenuSection{
+        top: 0.8rem;
+    }
+    .LogoLinkHeader{
+        top: 1rem;
+        left: 6rem;
+    }
+    .LogIn{
+        bottom: 2rem;
+        left: 40rem;
+    }
+    .ImgLogIn{
+        display: block;
+        right: 10rem;
+    }
+    main{
+        width: 150%;
+    }
+    .ContainerHeader {
+        margin-top: -12px;
+        height: 4rem;
+        background-color: #DFDFDF;
+        width: 100%;
+    }
+    .MainHeader {
+        position: relative;
+        vertical-align: middle;
+        width: 100%;
+        height: 4.7rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid #818181;
+    }
+    .ContainerTitle{
+        left: 1rem;
+    }
+    .SubContainer1{
+        left: 6rem;
+    }
+    .SectionPrimary{
+        height: 90rem;
+    }
+    .ArticlePrimaryNote{
+        width: 600px;
+        left: 4rem;
+    }
+    .ImgNote{
+        width: 600px;
+        height: 300px;
+    }
+    .ArticleSecondaryNote{
+        width: 600px;
+        left: 4rem;
+        top: 40rem;
+    }
+    .SecondaryNoteH3{
+        font-weight: bold;
+        position: relative;
+        bottom: 23rem;
+    }
+    .ImgNote2, .ImgNote3{
+        width: 600px;
+        height: 300px;
+    }
+    .ArticleThirdNote{
+        position: absolute;
+        left: 4rem;
+        top: 64.2rem;
+        width: 300px;    
+    }
+    .ImgNote3{
+        position: relative;
+        top: 3rem;
+    }
+    .LogoFooter{
+        position: relative;
+        left: 15rem;
+    }
+    .Section {
+        position: relative;
+        left: -6rem !important;
+        border-bottom: 1px solid #818181;
+        height: 20rem;
+        width: 110%;
+    }
 }
