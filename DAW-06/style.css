@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/Fondo.jpg'); /* Reemplaza 'cancha_de_rugby.jpg' con la URL de tu imagen */
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+header{
+    justify-content: center;
+    display: flex;
+}
+
+.header{
+    width: 50%;
+    border-radius: 40px;
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    display: flex;
+}
+.logo img{
+    border-radius: 500px;
+    margin-right: 1rem;
+}
+.nav-bar{
+    display: flex;
+}
+nav{
+    align-content: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0.5rem;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+}
