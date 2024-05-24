@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <form action="mailto:?subject"ASUNTO" target="_blank" method="post" enctype="text/plain">
+            <h1>Formulario</h1>
+            <div class="nombre">
+                <label for="nameid">Nombre</label>
+                <input type="text" name="name" id="nameid" required>
+            </div>
+            <div class="apellido">
+                <label for="lastnameid">Apellido</label>
+                <input type="text" name="lastname" id="lastnameid" required>
+            </div>
+            <div class="email">
+                <label for="emailid">Email</label>
+                <input type="text" name="email" id="emailid" required>
+            </div>
+            <div class="fecha">
+                <label for="dateid">Fecha de Nacimiento</label>
+                <input type="date" name="date" id="dateid" required>
+            </div>
+            <div class="sexo">
+                <label for="sexid">Sexo</label>
+                <select name="sex" id="sexid" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+            </div>
+            <div class="comentario">
+                <label for="commentid">Comentario</label>
+                <textarea name="comment" id="commentid" cols="30" rows="5"></textarea>
+            </div>
+            <input type="submit">
+            <input type="reset">
+            <button><a href="index.html">Volver</a></button>
+        </form>
+    </body>
+</html>
